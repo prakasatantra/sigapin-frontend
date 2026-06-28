@@ -1,0 +1,107 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+.expo/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+.history/
+*.code-workspace
+
+# Flutter/Dart related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Android related
+**/android/**/generated/
+**/android/gen/
+**/android/out/
+**/android/app/google-services.json
+.gradle/
+build/
+captures/
+local.properties
+.cxx/
+*.apk
+*.aab
+*.bundle
+
+# iOS related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-temporarily
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*~.nib
+**/ios/**/DerivedData
+**/ios/**/Podfile.lock
+**/ios/**/Pods
+**/ios/**/.generated
+**/ios/.lsdiagnostics
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.[mh]
+**/ios/Runner/Pods/
+**/ios/Pods/
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+**/.xcworkspace/xcuserdata
+
+# Web related
+lib/generated_plugin_registrant.dart
+pubspec-funcs.yaml
+
+# Windows related
+**/windows/flutter/ephemeral/
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/x64/
+
+# Linux related
+**/linux/flutter/ephemeral/
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+
+# macOS related
+**/macos/flutter/ephemeral/
+**/macos/flutter/generated_plugin_registrant.swift
+
+# Exceptions to keep the Gradle wrapper
+!**/gradle-wrapper.jar
+!**/gradlew
+!**/gradlew.bat
+
+# Keystore / Secrets
+*.jks
+*.keystore
+*.jceks
+*.p12
+*.pfx
+key.properties
+**/*.env
+**/*.secret
+/lib/services/api_config.dart

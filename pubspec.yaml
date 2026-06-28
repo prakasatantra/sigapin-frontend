@@ -1,0 +1,21 @@
+name: notifikasi_kampus
+description: Sistem Informasi Gajah Pintar (Beta) - Dikembangkan oleh Teknologi Informasi angkatan 39
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  onesignal_flutter: ^5.6.2
+  http: ^1.2.0
+  shared_preferences: ^2.2.0
+  image_picker: ^1.1.2
+  permission_handler: ^11.3.1
+  cached_network_image: ^3.3.1
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  shimmer: ^3.0.0
+
+flutter:
+  uses-material-design: true
